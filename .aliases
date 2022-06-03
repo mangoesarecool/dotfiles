@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+# shortcuts to Directories
+
+alias d2="cd /terrabytedrive/"
+alias down="cd ~/Downloads"
+alias p="cd /terrabytedrive/programming"
+alias doc="cd ~/Documents"
+
+#updates
+
+
+alias update="yay -Syyu && brew update && brew upgrade && brew cleanup && npm install npm -g && npm update -g"
