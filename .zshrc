@@ -11,6 +11,16 @@ sudo pacman -Syyu
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME="amuse"
 
+
+function masterScript()
+{
+    if [ -e /terrabytedrive/programming/dotfiles/.aliases]
+    then
+        bash /terrabytedrive/programming/dotfiles/.aliases
+    fi
+}
+
+
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
 # a theme from this variable instead of looking in $ZSH/themes/
